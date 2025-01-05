@@ -1,7 +1,7 @@
 defmodule ExMon.Game.Status do
   @moduledoc false
 
-  alias Exmon.Game
+  alias ExMon.Game
 
   def print_round_message do
     IO.puts("\n====== The game is started! ======")
